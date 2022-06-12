@@ -1,0 +1,26 @@
+.form {
+    background-color: rgb(207, 195, 219);
+}
+
+
+body {
+    background-color: rgb(192, 233, 192);
+}
+
+p,
+h1 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+
+.formcds2 {
+    background-color: rgb(208, 201, 218);
+    margin-top: 100;
+    margin-left: 600;
+    margin-right: 600;
+    height: 370;
+}
