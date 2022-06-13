@@ -7,12 +7,10 @@
     <title>Acessar clubes</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="estilo.css" />
 
 </head>
 <body>
-
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
@@ -38,15 +36,6 @@
   </ul>
   </nav>
 </br>
-
-<div class="d-grid gap-2 col-6 mx-auto">
-  <a href="atualizarLeitura.php"><button class="btn btn-primary" type="button">Fazer atualização de leitura</button></a>
-  <a href="forum.php"><button class="btn btn-success" type="button">Acessar fórum</button></a>
-  <a href="MUDAR ISSO"><button class="btn btn-danger" type="button">Sair deste clube</button></a>
-</div>
-<!--MUDAR ESSA ÚLTIMA PARTE DO BOTAO DE SAIR DO CLUBE E DEIXAR OS BOTOES DO MESMO TAMANHO-->
-
-
 
 </body>
 </html>

@@ -14,7 +14,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="img/logo.png" alt="" width="90" height="80">
+      <img src="img/logo.png" alt="" width="70" height="70">
       </a>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -36,6 +36,102 @@
   </ul>
   </nav>
 </br>
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <!-- parte dos cards do carrossel -->
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="https://pbs.twimg.com/media/FURbOLMXwAAwKUI?format=jpg&name=900x900" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Clube de Romance</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer text-center">
+      <button class="btn btn-outline-dark" type="submit" name="cadastrar" id="cadastrar">Cadastrar-se no clube</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Clube de Fantasia</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer text-center">
+      <button class="btn btn-outline-dark" type="submit" name="cadastrar" id="cadastrar">Cadastrar-se no clube</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Clube Chick Lit</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="card-footer text-center">
+      <button class="btn btn-outline-dark" type="submit" name="cadastrar" id="cadastrar">Cadastrar-se no clube</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- segunda parte dos cards no carrossel -->
+<div class="carousel-item">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Clube de Terror</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+      <div class="card-footer text-center">
+      <button class="btn btn-outline-dark" type="submit" name="cadastrar" id="cadastrar">Cadastrar-se no clube</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Clube de Mistério</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      </div>
+      <div class="card-footer text-center">
+      <button class="btn btn-outline-dark" type="submit" name="cadastrar" id="cadastrar">Cadastrar-se no clube</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Clube de Ficção</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      </div>
+      <div class="card-footer text-center">
+      <button class="btn btn-outline-dark" type="submit" name="cadastrar" id="cadastrar">Cadastrar-se no clube</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
 
 </body>
 </html>
