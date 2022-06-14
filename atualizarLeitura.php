@@ -35,7 +35,8 @@
 <div class="row g-5">
     <h3 class="text-center">Conte o que você está achando da leitura!</h3>
   <input type="number" class="form-control" id="paginaslidas" placeholder="Número de páginas lidas">
-  </div><br>
+  </div>
+  <br>
     <div class="row g-5">
   <textarea class="form-control" id="textareaAtualizacao" rows="7" placeholder="Escreva o que está achando do livro aqui"></textarea><br>
   </div><br>
