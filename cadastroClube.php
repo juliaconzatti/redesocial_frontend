@@ -43,7 +43,7 @@
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card h-100">
-      <img src="https://pbs.twimg.com/media/FURbOLMXwAAwKUI?format=jpg&name=900x900" class="card-img-top" alt="">
+      <img src="img/imagem1.png" class="card-img-top" alt="">
       <div class="card-body">
         <h5 class="card-title">Clube de Romance</h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -55,7 +55,7 @@
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="img/imagem2.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Clube de Fantasia</h5>
         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -67,7 +67,7 @@
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="img/imagem1.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Clube Chick Lit</h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -84,7 +84,7 @@
 <div class="row row-cols-1 row-cols-md-3 g-4">
   <div class="col">
     <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="img/imagem2.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Clube de Terror</h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -96,7 +96,7 @@
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="img/imagem1.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Clube de Mistério</h5>
         <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -108,7 +108,7 @@
   </div>
   <div class="col">
     <div class="card h-100">
-      <img src="..." class="card-img-top" alt="...">
+      <img src="img/imagem2.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Clube de Ficção</h5>
         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>

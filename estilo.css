@@ -31,4 +31,8 @@ a:link{
     color:rgb(52, 33, 63);
     }
 
+    .carousel-control, .carousel-control:hover {
+        opacity: 1;
+     }
+
     

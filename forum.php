@@ -41,37 +41,9 @@
                     </div>
                     </div>
                     </div>
-</form>
-
-<div class="d-grid gap-2 col-6 mx-auto">
-      <button type="button" id="btnResposta" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#divResForum">Responder esse tópico</button>
-</div><br>
-
-<div class="modal fade" id="divResForum" tabindex="-1" aria-labelledby="divResForumLabel" aria-hidden="true">
-        <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="divResForumLabel">Responder tópico</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <form action="salvar.php" id="formulario">
-                    <div class="row g-2">
-                        <input type="hidden" id="id" name="id"/>
-                        <div class="col-sm">
-                            <input type="text" class="form-control" id="titulore" name="titulore" placeholder="Re: Título da discussão">
-                        </div>
-                        <div class="col-sm">
-                    <input type="text" class="form-control" id="placa" name="placa" placeholder="Insira a placa do carro">
-                    <textarea class="form-control" id="textareaResposta" rows="7" placeholder="Escreva sua resposta aqui"></textarea><br>
+                    <div class="card-footer text-center">
+                    <a href="respostaForum.php"><button class="btn btn-outline-dark" type="button">Responder esse tópico</button></a>
+                    <!--Pensar como vou fazer a resposta no fórum-->
                     </div>
-                    <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancelar</button>
-                    <button id="Salvar" type="button" class="btn btn-success">Salvar</button>
-                </div>
-                </div>
-
-                
-
 </body>
 </html>
