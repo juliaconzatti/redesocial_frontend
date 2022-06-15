@@ -1,6 +1,6 @@
 
 body {
-    background-color: rgb(224, 223, 213);
+    background-color: rgb(255, 235, 252);
 }
 
 p,
@@ -28,7 +28,7 @@ a:link{
     
     a:visited{
     text-decoration:none;
-    color:rgb(131, 36, 187);
+    color:#8f7289;
     }
 
     .carousel-control, .carousel-control:hover {
@@ -38,8 +38,14 @@ a:link{
      .forms_log{
          align-content: center;
          margin-bottom: 2%;
-         margin-top: 8%;
+         margin-top: 3%;
      }
+
+     #nav1{ 
+    opacity: 0.5; 
+    filter:(opacity=50);       
+}
+
      
 
     
