@@ -11,41 +11,31 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-      <img src="img/logo.png" alt="" width="70" height="70">
-      </a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="clubes_cadastrados.html">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
-    <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="clubes_cadastrados.html">Action</a></li>
-      <li><a class="dropdown-item" href="entrar_clube.php">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
-      <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-item" href="#">Separated link</a></li>
-    </ul>
-  </li>
-      </div>
-    </div>
-  </ul>
-  </nav>
+<nav class="navbar" style="background-color: #180a25;" id="nav1">
+        <div class="container-md"></div>
+          <a class="navbar-brand" href="www.instagram.com"><img src="img/logoinstagram.png" width="20px" height="20px" class="d-inline-block align-text-top"></a>
+          <a class="navbar-brand" href="www.facebook.com"><img src="img/logofacebook.png" width="20px" height="20px" class="d-inline-block align-text-top"></a>
+          </div>
+        </div>
+      </nav>
 
+      <nav class="navbar sticky-top" style="background-color: #d6abda;">
+        <div class="container-fluid">
+            <img class="navbar" src="img/imaginari.png" alt="">
+        </div>
+      </nav>
 
   
 </br>
-<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+<div class="carouselcards">
+<div id="carouselCadastro" class="carousel carousel-dark slide" data-ride="carousel" data-interval="0">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <!-- parte dos cards do carrossel -->
-<div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
-    <div class="card h-100">
+      <!-- parte 1 dos cards do carrossel -->
+<div class="row row-cols-1 row-cols-md-5 g-4">
+<div class="col"></div>  
+<div class="col">
+    <div class="card h-100 w-100"  class="cardscrs">
       <img src="img/imagem1.png" class="card-img-top" alt="">
       <div class="card-body">
         <h5 class="card-title">Clube de Romance</h5>
@@ -80,11 +70,13 @@
       </div>
     </div>
   </div>
+  <div class="col"></div>  
 </div>
 </div>
 <!-- segunda parte dos cards no carrossel -->
 <div class="carousel-item">
-<div class="row row-cols-1 row-cols-md-3 g-4">
+<div class="row row-cols-1 row-cols-md-5 g-4">
+<div class="col"></div>
   <div class="col">
     <div class="card h-100">
       <img src="img/imagem2.png" class="card-img-top" alt="...">
@@ -121,17 +113,21 @@
       </div>
     </div>
   </div>
+  <div class="col"></div>
 </div>
 </div>
-<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+<button class="carousel-control-prev" type="button" data-bs-target="#carouselCadastro" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselCadastro" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
 </div>
+</div>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 

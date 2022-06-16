@@ -11,18 +11,21 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-      <img src="img/logo.png" alt="" width="70" height="70">
-      </a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="clubes_cadastrados.html">Home</a>
-          </li>
-  </nav>
-</br>
+<nav class="navbar" style="background-color: #180a25;" id="nav1">
+        <div class="container-md"></div>
+          <a class="navbar-brand" href="www.instagram.com"><img src="img/logoinstagram.png" width="20px" height="20px" class="d-inline-block align-text-top"></a>
+          <a class="navbar-brand" href="www.facebook.com"><img src="img/logofacebook.png" width="20px" height="20px" class="d-inline-block align-text-top"></a>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="navbar sticky-top" style="background-color: #d6abda;">
+        <div class="container-fluid">
+            <img class="navbar" src="img/imaginari.png" alt="">
+        </div>
+      </nav>
+
+      <div class="forms_log">     
 <form>
 <div class="form-group row">
         <div class="d-flex align-items-center justify-content-center h-100">
@@ -41,8 +44,25 @@
                     </div>
                     </div>
                     <div class="card-footer text-center">
-                    <a href="respostaForum.php"><button class="btn btn-outline-dark" type="button">Responder esse tópico</button></a>
-                    <!--Pensar como vou fazer a resposta no fórum-->
+                    <button type="button" id="btnForum" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#divForum">Responder esse tópico</button>
+                    </div>
+                    <div class="modal fade" id="divForum" tabindex="-1" aria-labelledby="divForumLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="divForumLabel">Responder esse tópico</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="salvarResposta.php" id="formularioResposta">
+                    <div class="row g-1">
+                        <input type="hidden" id="id" name="id"/>
+                        <div class="col-sm">
+                            <input type="text" class="form-control" id="tituloResposta" placeholder="Re: Título da discussão">
+                        </div>
+                        <div class="col-sm">
+                        <textarea class="form-control" id="textareaForumResp" rows="7" placeholder="Escreva sua resposta aqui"></textarea><br>
+                    </div>
                     </div>
 </body>
 </html>

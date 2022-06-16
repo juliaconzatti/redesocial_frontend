@@ -13,31 +13,19 @@
 </head>
 <body>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-      <img src="img/logo.png" alt="" width="70" height="70">
-      </a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="clubes_cadastrados.html">Home</a>
-          </li>
-          <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
-    <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="clubes_cadastrados.html">Action</a></li>
-      <li><a class="dropdown-item" href="entrar_clube.php">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
-      <li><hr class="dropdown-divider"></li>
-      <li><a class="dropdown-item" href="#">Separated link</a></li>
-    </ul>
-  </li>
-      </div>
-    </div>
-  </ul>
-  </nav>
-</br>
+<nav class="navbar" style="background-color: #180a25;" id="nav1">
+        <div class="container-md"></div>
+          <a class="navbar-brand" href="www.instagram.com"><img src="img/logoinstagram.png" width="20px" height="20px" class="d-inline-block align-text-top"></a>
+          <a class="navbar-brand" href="www.facebook.com"><img src="img/logofacebook.png" width="20px" height="20px" class="d-inline-block align-text-top"></a>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="navbar sticky-top" style="background-color: #d6abda;">
+        <div class="container-fluid">
+            <img class="navbar" src="img/imaginari.png" alt="">
+        </div>
+      </nav>
 
 <div class="d-grid gap-2 col-6 mx-auto">
   <a href="atualizarLeitura.php"><button class="btn btn-primary" type="button">Fazer atualização de leitura</button></a>

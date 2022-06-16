@@ -18,25 +18,24 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="img/logo.png" alt="" width="70" height="70">
-      </a>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="clubes_cadastrados.html">Meus clubes do livro</a>
-          </li>
-      </div>
-    </div>
-  </ul>
-  </nav>
-</br>
+<nav class="navbar" style="background-color: #180a25;" id="nav1">
+        <div class="container-md"></div>
+          <a class="navbar-brand" href="www.instagram.com"><img src="img/logoinstagram.png" width="20px" height="20px" class="d-inline-block align-text-top"></a>
+          <a class="navbar-brand" href="www.facebook.com"><img src="img/logofacebook.png" width="20px" height="20px" class="d-inline-block align-text-top"></a>
+          </div>
+        </div>
+      </nav>
 
+      <nav class="navbar sticky-top" style="background-color: #d6abda;">
+        <div class="container-fluid">
+            <img class="navbar" src="img/imaginari.png" alt="">
+        </div>
+      </nav>
 
-<div class="row row-cols-1 row-cols-md-3 g-4">
-  <div class="col">
+<div id="contclubes">
+<div class="row row-cols-1 row-cols-md-5 g-4">
+<div class="col"></div>  
+<div class="col">
     <div class="card h-100">
       <img src="https://media.glamourmagazine.co.uk/photos/61389d4c30654311017f6e8b/16:9/w_320%2Cc_limit/best.jpg" class="card-img-top" alt="...">
       <div class="card-body">
@@ -72,6 +71,8 @@
       </div>
     </div>
   </div>
+  <div class="col"></div>  
+</div>
 </div>
     
 </body>

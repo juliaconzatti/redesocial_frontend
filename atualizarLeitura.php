@@ -13,27 +13,27 @@
 </head>
 <body>
 
-<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-        <img src="img/logo.png" alt="" width="70" height="70">
-          </a>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="acessarClube.php">Meus clubes do livro</a>
-              </li>
+<nav class="navbar" style="background-color: #180a25;" id="nav1">
+        <div class="container-md"></div>
+          <a class="navbar-brand" href="www.instagram.com"><img src="img/logoinstagram.png" width="20px" height="20px" class="d-inline-block align-text-top"></a>
+          <a class="navbar-brand" href="www.facebook.com"><img src="img/logofacebook.png" width="20px" height="20px" class="d-inline-block align-text-top"></a>
           </div>
         </div>
-      </ul>
       </nav>
-    </br>
 
+      <nav class="navbar sticky-top" style="background-color: #d6abda;">
+        <div class="container-fluid">
+            <img class="navbar" src="img/imaginari.png" alt="">
+        </div>
+      </nav>
+
+      <div class="forms_log">
 <form>
 <div class="form-group row">
         <div class="d-flex align-items-center justify-content-center h-100">
             <div class="d-flex flex-column">
 <div class="row g-5">
-    <h3 class="text-center">Conte o que você está achando da leitura!</h3>
+    <h3 class="text-center">Histórico de leitura</h3>
   <input type="number" class="form-control" id="paginaslidas" placeholder="Número de páginas lidas">
   </div>
   <br>
@@ -48,6 +48,7 @@
                     </div>
                     </div>
 </form>
+</div>
 
 </body>
 </html>
