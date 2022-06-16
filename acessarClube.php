@@ -1,6 +1,6 @@
 <?php
 
-// cards com imagens botoes e descricao
+// A quantidade de cards pode variar, pois vai depender do número de clubes que o usuário possui.
 
 ?>
 
@@ -29,7 +29,19 @@
       <nav class="navbar sticky-top" style="background-color: #d6abda;">
         <div class="container-fluid">
             <img class="navbar" src="img/imaginari.png" alt="">
-        </div>
+            <form class="d-flex">
+            <a href="cadastroClube.php"><button class="btn btn-outline-dark" type="button">Entrar em mais clubes</button></a>
+    <div class="dropdown">
+  <button class="btn btn-outline-dark dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+  <img src="img/usuario.png" width="20px" height="20px">
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+    <li><a class="dropdown-item" href="cadastroClube.php">Cadastrar-se em mais clubes</a></li>
+    <li><a class="dropdown-item" href="#">Sair</a></li>
+  </ul>
+</div>
+       </form>
+       </div>
       </nav>
 
 <div id="contclubes">
