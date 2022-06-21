@@ -48,8 +48,6 @@
 <div class="row g-5">
     <h3 class="text-center">Faça sua resenha aqui!</h3>
   <input type="text" class="form-control" id="tituloresenha" placeholder="Título da resenha">
-  </div><br>
-    <div class="row g-5">
   <textarea class="form-control" id="textareaResenha" rows="7" placeholder="Escreva aqui a sua opinião sobre o livro"></textarea><br>
   </div><br>
   <div class="d-grid gap-2">

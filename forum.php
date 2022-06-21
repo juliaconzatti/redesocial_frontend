@@ -45,10 +45,8 @@
 <div class="row g-5">
     <h4 class="text-center">Compartilhe suas opiniões no fórum :)</h4>
   <input type="text" class="form-control" id="tituloforum" placeholder="Título da discussão">
-  </div><br>
-    <div class="row g-5">
   <textarea class="form-control" id="textareaForum" rows="7" placeholder="Escreva aqui"></textarea><br>
-  </div><br>
+  </div>
   <div class="d-grid gap-2">
                         <button class="btn btn-outline-dark" type="submit" name="pub_forum" id="cadastrar">Publicar no fórum</button><br>
                     </div>
