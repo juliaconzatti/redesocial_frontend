@@ -61,7 +61,7 @@
 <div class="d-grid gap-2 col-6 mx-autot">
   <a href="atualizarLeitura.php"><button class="btn btn-primary" type="button">Atualizar leitura</button></a>
   <a href="forum.php"><button class="btn btn-success" type="button">Acessar fórum</button></a>
-  <a href="MUDAR ISSO"><button class="btn btn-danger" type="button">Sair deste clube</button></a>
+  <a href="..."><button class="btn btn-danger" type="button">Sair deste clube</button></a>
 </div>
 </div>
   </div>
