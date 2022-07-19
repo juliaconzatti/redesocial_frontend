@@ -27,7 +27,8 @@
       </nav>
 
     
-<form>
+<form method="POST">
+<div id="alert" class="alert alert-danger d-none">Dados inválidos!</div>
 <div class="forms_log">
     <div class="form-group row">
         <div class="d-flex align-items-center justify-content-center h-100">
@@ -37,24 +38,26 @@
                 <p>Não esqueça de contar <br>
                     o que está achando das suas leituras!</p>
 
+                    <input type="hidden" name="id" id="id" />
+              <div class="mb-3">
+
                 <div class="col-sm-14">
                     <div class="form-floating mb-3">
-                        <input type="text" size="50" name="usuarioemail" placeholder="Informe seu email ou nome do usuário" class="form-control"
+                        <input type="text" size="50" name="email" id="email" placeholder="Informe seu email ou nome do usuário" class="form-control"
                             id="floatingInput" required>
                         <label for="floatingInput">Email ou nome do usuário</label>
                     </div>
             
                 <div class="col-sm-14">
                     <div class="form-floating mb-3">
-                        <input type="password" size="50" name="senha" placeholder="Informe sua senha"
+                        <input type="password" size="50" name="senha" id="senha" placeholder="Informe sua senha"
                             class="form-control" id="floatingInput" required>
                         <label for="floatingInput">Senha</label>
                     </div>
                 </div>
                 <div class="col-sm-14">
                     <div class="d-grid gap-2">
-                        <button class="btn btn-outline-dark" type="submit" name="cadastrar"
-                            id="cadastrar">Entrar</button>
+                        <button id="entrar" class="btn btn-outline-dark" type="submit" name="entrar">Entrar</button>
                     </div>
                 </div>
             </div>
@@ -67,6 +70,13 @@
     <div>
 </div>
 </div>
-</body>
 
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" 
+crossorigin="anonymous"></script>
+    <script src="../redesocial_backend/javascript/logout.js"></script>
+  <script src="../redesocial_backend/javascript/scripts.js"></script>
+
+</body>
 </html>
