@@ -28,6 +28,7 @@
       </nav>
 
 
+    <form method="POST">
     <div class="forms_log">
     <div class="form-group row">
         <div class="d-flex align-items-center justify-content-center h-100">
@@ -61,21 +62,23 @@
                 </div>
                 <div class="col-sm-14">
                     <div class="d-grid gap-2">
-                        <button class="btn btn-outline-dark" type="submit" name="cadastrarCliente"
-                            id="cadastrarCliente">Cadastrar-se</button>
+                        <button class="btn btn-outline-dark" type="submit" name="cadastrarCliente" id="cadastrarCliente">Cadastrar-se</button>
                     </div>
                 </div>
             </div>
 
         </div>
-        <p class="mt-3 text-center">Já possui uma conta? <a class="bnt-link-primary" href="home.php" title=""><b>Conecte-se</b></a></p>
-        </br>
+        <p class="mt-3 text-center">Já possui uma conta? <a class="bnt-link-primary" href="login.php" title=""><b>Conecte-se</b></a></p>
         </fieldset>
     </div>
     </form>
     <div>
 </div>
-<div></div>
+<div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+<script src="../redesocial_backend/javascript/cadastro_scripts.js"></script>
 
 </body>
 
