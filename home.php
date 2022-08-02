@@ -28,6 +28,10 @@
 
     
 <form method="POST">
+
+<div class="modal-body">
+    <div id="alert" class="alert alert-danger d-none">Dados inválidos!</div>
+
 <div class="forms_log">
     <div class="form-group row">
         <div class="d-flex align-items-center justify-content-center h-100">
@@ -56,7 +60,7 @@
                 </div>
                 <div class="col-sm-14">
                     <div class="d-grid gap-2">
-                        <button id="entrar" class="btn btn-outline-dark" type="submit" name="entrar">Entrar</button>
+                        <button id="entrar" class="btn btn-outline-dark">Entrar</button>
                     </div>
                 </div>
             </div>
@@ -72,6 +76,7 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 <script src="../redesocial_backend/javascript/login_scripts.js"></script>
+<script src="../redesocial_backend/javascript/logout.js"></script>
 
 </body>
 </html>

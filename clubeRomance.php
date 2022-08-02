@@ -75,6 +75,7 @@ crossorigin="anonymous"></script>
     <script src="https://momentjs.com/downloads/moment.min.js"></script>
     <script src="../redesocial_backend/javascript/logout.js"></script>
   <script src="../redesocial_backend/javascript/scripts.js"></script>
+  <script src="../redesocial_backend/javascript/login_scripts.js"></script>
 
 
 </body>

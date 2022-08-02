@@ -68,7 +68,7 @@
             </div>
 
         </div>
-        <p class="mt-3 text-center">Já possui uma conta? <a class="bnt-link-primary" href="login.php" title=""><b>Conecte-se</b></a></p>
+        <p class="mt-3 text-center">Já possui uma conta? <a class="bnt-link-primary" href="home.php" title=""><b>Conecte-se</b></a></p>
         </fieldset>
     </div>
     </form>
